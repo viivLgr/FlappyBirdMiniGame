@@ -10,7 +10,8 @@
 	"compileType": "game",
 	"libVersion": "game",
 	"appid": "touristappid",
-	"projectname": "gameDemo",
+	"projectname": "FlappyBirdMiniGame",
+	"isGameTourist": true,
 	"condition": {
 		"search": {
 			"current": -1,
@@ -28,6 +29,5 @@
 			"current": -1,
 			"list": []
 		}
-	},
-	"isGameTourist": true
+	}
 }

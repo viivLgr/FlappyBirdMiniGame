@@ -90,6 +90,11 @@ export class Director {
         // 加分逻辑
         if (birds.birdsX[0] > pencils[0].x + pencils[0].width &&
             score.isScore) {
+            wx.vibrateShort({
+                success: function(){
+                    console.log('震动')
+                }
+            });
             score.isScore = false;
             score.scoreNum++;
         }
@@ -130,6 +135,9 @@ export class Director {
             this.dataStore.get('startButton').draw();
             cancelAnimationFrame(this.dataStore.get('timer'));
             this.dataStore.destroy();
+            
+            // 触发微信小游戏垃圾回收
+            wx.triggerGC();
         }
     }
 }
