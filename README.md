@@ -1,7 +1,7 @@
 # FlappyBirdMiniGame
 微信小游戏-碰撞的小鸟
 
-这是我在慕课晚上学的付费课程， [微信小游戏入门与实战 刷爆朋友圈](https://coding.imooc.com/class/183.html)，猿猿老师讲的很好，收获很多。
+这是我在慕课网上学的付费课程， [微信小游戏入门与实战 刷爆朋友圈](https://coding.imooc.com/class/183.html)，猿猿老师讲的很好，收获很多。
 
 源码[GitHub地址](https://github.com/viivLgr/FlappyBirdMiniGame)
 
